@@ -221,7 +221,7 @@ h2 {
 }
 
 .project-content {
-  height: 150px;
+  min-height: 150px;
 }
 
 .project-image {
@@ -413,6 +413,7 @@ textarea {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+  align-items: stretch;
   }
 
   .projects h2 {
