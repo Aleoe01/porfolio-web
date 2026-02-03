@@ -35,12 +35,6 @@ section {
   padding: 3rem 1.5rem;
 }
 
-h1,
-h2,
-h3 {
-  line-height: 1.2;
-}
-
 /*  */
 
 /* =====================
@@ -66,7 +60,7 @@ h3 {
 }
 
 .nav-links {
-  display: none; /* mobile first */
+  display: none; 
 }
 
 /* =====================
@@ -80,25 +74,43 @@ h3 {
   gap: 1.2rem;
 }
 
-.hero h1,
-h2 {
+
+.hero-nombre {
   font-size: 2rem;
-  margin-bottom: 0;
+  font-weight: 700;
+  line-height: 1.15;
+  margin-bottom: 0.4rem;
 }
 
-.nombre {
+.hero-rol {
   color: #38bdf8;
+  font-size: 1.40rem;  
+  font-weight: 700;
+  line-height: 1.2;
 }
 
-.hero p {
+.hero-frase {
+  font-size: 1rem;   
+  font-weight: 400;
+  color: #bfc7d5;
+  margin-top: 0.6rem;
+}
+
+.hero-stack {
+  font-size: 0.8rem;  
+  color: #9aa4b2;
+  margin-top: 0.75rem;
+}
+
+/* .hero p {
   color: #94a3b8;
   font-size: 1rem;
-}
+} */
 
 .hero-buttons {
   display: flex;
   gap: 1rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 /* =====================
@@ -413,7 +425,7 @@ textarea {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
-  align-items: stretch;
+    align-items: stretch;
   }
 
   .projects h2 {
