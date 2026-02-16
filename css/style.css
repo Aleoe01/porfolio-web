@@ -22,6 +22,10 @@ body {
 /* =====================
    ELEMENTOS GENERALES
 ===================== */
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -540,6 +544,7 @@ textarea.error-input {
 @media (min-width: 768px) {
   section {
     padding: 5rem 6rem;
+    scroll-margin-top: 80px;
   }
 
   .header {
