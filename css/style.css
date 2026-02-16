@@ -424,6 +424,7 @@ textarea {
   background-color: #1e293b;
   color: #e5e7eb;
   font-size: 0.95rem;
+  resize: none;
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -442,6 +443,12 @@ textarea {
 .formulario button {
   width: 100%;
   margin-top: 0.5rem;
+}
+
+input.error-input,
+textarea.error-input {
+  border: 1px solid #f87171 !important;
+  box-shadow: 0 0 0 2px rgba(239, 68, 68, 0.2) !important;
 }
 
 /* =====================

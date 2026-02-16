@@ -299,20 +299,20 @@
       <section class="contacto">
         <div id="contacto" class="formulario">
           <h2>Contacto</h2>
-          <form action="https://formspree.io/f/xvzbanae" method="POST">
+          <form id="formulario" action="https://formspree.io/f/xvzbanae" method="POST">
             <label>
               Nombre
-              <input type="text" name="nombre" required />
+              <input type="text" name="nombre" id="nombre" required />
             </label>
 
             <label>
               Email
-              <input type="email" name="email" required />
+              <input type="email" name="email" id="email" required />
             </label>
 
             <label>
               Mensaje
-              <textarea name="mensaje" rows="4" required></textarea>
+              <textarea name="message" rows="4" id="mensaje" required></textarea>
             </label>
 
             <button type="submit" class="btn primary">Enviar mensaje</button>
@@ -332,5 +332,8 @@
         </div>
       </div>
     </footer>
+
+    <script src="js/script.js"></script>
+
   </body>
 </html>
