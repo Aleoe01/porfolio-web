@@ -299,7 +299,11 @@
       <section class="contacto">
         <div id="contacto" class="formulario">
           <h2>Contacto</h2>
-          <form id="formulario" action="https://formspree.io/f/xvzbanae" method="POST">
+          <form
+            id="formulario"
+            action="https://formspree.io/f/xvzbanae"
+            method="POST"
+          >
             <label>
               Nombre
               <input type="text" name="nombre" id="nombre" required />
@@ -312,7 +316,12 @@
 
             <label>
               Mensaje
-              <textarea name="message" rows="4" id="mensaje" required></textarea>
+              <textarea
+                name="message"
+                rows="4"
+                id="mensaje"
+                required
+              ></textarea>
             </label>
 
             <button type="submit" class="btn primary">Enviar mensaje</button>
@@ -333,7 +342,8 @@
       </div>
     </footer>
 
-    <script src="js/script.js"></script>
+    <div id="mensajeEnviado" class="mensajeEnviado">✅ Mensaje enviado correctamente</div>
 
+    <script src="js/script.js"></script>
   </body>
 </html>
