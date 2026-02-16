@@ -27,7 +27,7 @@ formulario.addEventListener("submit", function (e) {
         exito.classList.add("mostrar");
 
         setTimeout(() => {
-          exito.classList.remove("mostar");
+          exito.classList.remove("mostrar");
         }, 4000);
 
       } else {
